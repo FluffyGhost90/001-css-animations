@@ -3,41 +3,31 @@ body {
     min-height: 100vh;
     background-size: cover;
   }
-.run-container{
+.covid-container img{
     position: absolute;
     left: 20%;
     top: 95%;
-    width: 120px;
+    width: 1opx;
     animation: runningAnimation 12s infinite;
   }
-  .run-container img{
-    width: 100%;
+  .covid-container img{
+    width: 50%;
   }
   
   @keyframes runningAnimation {
     0%{
-      
-      left: 10%;
-     
-    }
-  
-    
-  
-    100%{
-      left: 100%;
-     
-  
-    }
+   }
   }
-  .plane-container{
+.covid-container img{
     position: absolute;
     left: 20%;
     top: 95%;
-    width: 120px;
+    width: 70px;
     animation: runningAnimation 20s infinite;
   }
-  .run-container img{
-    width: 100%;
+  .virus-container img{
+    width: 30%;
+    left: 10%;
   }
   
   @keyframes runningAnimation {
@@ -49,9 +39,6 @@ body {
   
     
   
-    100%{
-      left: 100%;
-     
-  
-    }
-  }
+
+    
+    
